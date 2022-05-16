@@ -1,0 +1,18 @@
+[package]
+name = "Try_Diesel_with_rust_2021"
+version = "0.1.0"
+authors = ["YongJoon Joe <developer@yongjoon.net>"]
+edition = "2021"
+
+[lib]
+name = "diesel_with_rust_2021"
+path = "src/lib.rs"
+edition = "2021"
+
+[dependencies]
+diesel = { version = "1.4.*", features = ["mysql"] }
+dotenvy = "0.15.*"
+
+[features]
+
+[dev-dependencies]
